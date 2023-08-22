@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  color: #e1eeeb;
+  background-color: #223774;
+}
+.start-page {
+  position: fixed;
+  background: #223774;
+  width: 100vw;
+  height: 100vh;
+  transition: 0.5s;
+}
+.start {
+  height: 0vh;
+  overflow: hidden;
+}
+
+.start-page p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.start-page button {
+  display: block;
+  margin: 3rem auto;
+  width: 10rem;
+  height: 3rem;
+  font-size: 1rem;
+  background-color: #3756b3;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.start-page button:hover {
+  background-color: #466bdd;
+}
+
+.start-page img {
+  width: 30rem;
+  display: block;
+  margin: 5rem auto;
+}
+
+.header {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.header img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+  background-color: transparent;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+}
+
+.form {
+  padding: 1rem;
+  max-width: 30rem;
+  margin: 2rem auto;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+.input-group p {
+  width: 100%;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #223774;
+}
+
+.form input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #223774;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  font-size: 1rem;
+  color: #223774;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background: #223774;
+  color: #c2e9e0;
+  font-family: "Roboto Condensed", sans-serif;
+  cursor: pointer;
+}
+
+.buttonAlt {
+  font-family: "Roboto Condensed", sans-serif;
+  border: none;
+  background: transparent;
+  color: #223774;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #000;
+}
+
+.buttonAlt:hover {
+  background: transparent;
+  color: #000;
+}
+
+.result {
+  background-color: #fff;
+  max-width: 60rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  table-layout: fixed;
+  border-spacing: 1rem;
+  text-align: right;
+}
+
+.result thead {
+  font-size: 1rem;
+  color: #223774;
+}
+
+.result tbody {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.05rem;
+  color: #3452ac;
+}
